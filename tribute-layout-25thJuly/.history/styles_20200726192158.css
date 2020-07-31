@@ -1,0 +1,9 @@
+body{
+    background-color: rgba(102, 255, 51,0.4);
+}
+.grid-container{
+    display: grid;
+    grid-template-areas: 'header header header header'
+                        'left right right right'
+                        'footer footer footer footer';
+}
