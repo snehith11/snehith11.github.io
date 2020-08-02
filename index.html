@@ -27,29 +27,174 @@
     crossorigin="anonymous"
   ></script>
   <script src="https://use.fontawesome.com/7e5408c95c.js"></script>
-  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
-    <div class="nav-top">
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <img src="./images/minilogo.svg" />
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto nav-list">
+        <li class="nav-item active">
+          <a class="nav-link" href="#home"
+            >Home </a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
     </div>
+  </nav>
+  <div id="home" class="row about-container">
+    <div class="col-md-6 col-sm-12 col-12 about-image">
+      <section class="image">
+        <img
+          src="./images/myimage.jpg"
+          alt="snehith's image"
+          width="200"
+          height="250"
+        />
+      </section>
+      <h1 class="mt-2">Chenna Snehith</h1>
+      <p>Full-Stack Developer</p>
+      <section class="social-media">
+        <a href="https://www.linkedin.com/in/snehith-chenna-4a80a4125/"
+          ><i class="fa fa-linkedin-square" aria-hidden="true"></i
+        ></a>
+        <a href="https://www.instagram.com/snehith_chenna/"
+          ><i class="fa fa-instagram" aria-hidden="true"></i
+        ></a>
+        <a href="https://www.facebook.com/snehith.chenna"
+          ><i class="fa fa-facebook-official" aria-hidden="true"></i
+        ></a>
+      </section>
+    </div>
+    <div class="col-md-6 col-sm-12 col-12 about-me">
+      <h2>About Me</h2>
+      <p>
+        Over 3+ Years of Professional experience in all phases of Software
+        Development Life Cycle including Applications Design, Development,
+        Integration, Installation, Implementation, Maintenance, and Debugging of
+        various client/server web applications.
+      </p>
+      <button
+        type="button"
+        class="btn btn-dark"
+        href="./files/Resume_Snehith.pdf"
+        target="_blank"
+      >
+        View Resume
+      </button>
+    </div>
+  </div>
+  <div id="projects" class="row projects-container">
+    <div class="col-md-12 col-sm-12 col-12 pt-5 mt-5 pb-3 mt-5 mb-5">
+      <h2>Projects</h2>
+    </div>
+    <div class="col-md-6 col-sm-12 col-12 mt-3 mb-3">
+      <div class="card project-cards">
+        <h5 class="card-header">
+          Client - Collaborate Solutions Pvt Ltd.(Feb’2017 –Sept’2018 )
+        </h5>
+        <div class="card-body">
+          <h5 class="card-title">Project - DMT (Data Management Tool)</h5>
+          <p class="card-text">
+            Data management Tool is an application in order to maintain the
+            overall data of an organization. In a Constructive manner, it is an
+            efficient tool in which a company knows overall business as well as
+            a current ongoing business. It helps a lot for the company in
+            estimating the loopholes and making suggestions to improve the
+            overall company turnover.
+          </p>
+          <a href="#" class="btn btn-primary">Know More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-sm-12 col-12 mt-3 mb-3">
+      <div class="card project-cards">
+        <h5 class="card-header">
+          Company Product (Nov'2018 – Jan'2020 )
+        </h5>
+        <div class="card-body">
+          <h5 class="card-title">
+            Project - CCPT(Consultant Coordination and Placement Tool)
+          </h5>
+          <p class="card-text">
+            CCPT is a tool used by underwriters to handle the overall process of
+            placement service. It is a web based application, which basically
+            manages the placement process. The tool helps to maintain the data
+            of clients and consultants and also helps to track the status of a
+            placement process.
+          </p>
+          <a href="#" class="btn btn-primary">Know More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="skills" class="row skills-container">
+    <div class="col-md-12 col-sm-12 col-12 pb-3 mt-5 mb-5">
+      <h2>Skills</h2>
+    </div>
+    <div class="col-md-4 col-sm-6 col-6 skill">
+      <img src="./images/html5.png" alt="htnl5" />
+    </div>
+    <div
+      class="col-md-4 col-sm-6 col-6 skill"
+      style="background-color: inherit;"
+    >
+      <img src="./images/css3.png" width="185" height="220" alt="css3" />
+    </div>
+    <div class="col-md-4 col-sm-6 col-6 skill">
+      <img src="./images/js.png" width="220" height="220" alt="java script" />
+    </div>
+    <div class="col-md-4 col-sm-6 col-6 skill">
+      <img
+        src="./images/bootstrap.png"
+        width="196"
+        height="206"
+        alt="bootstrap"
+      />
+    </div>
+    <div class="col-md-4 col-sm-6 col-6 skill">
+      <img src="./images/jquery.png" width="220" height="220" alt="jquery" />
+    </div>
+  </div>
+  <div id="contact" class="row contact-container">
+    <div class="col-md-12 col-sm-12 col-12 pb-3 mt-3 mb-3 contact">
+      <section class="social-media pl-5">
+        <h4>Contact</h4>
+        <p><strong>Phone:</strong>+91 8977744444</p>
+        <p><strong>Email:</strong>c.snehith11@gmail.com</p>
+        <a
+          class="ml-3"
+          href="https://www.linkedin.com/in/snehith-chenna-4a80a4125/"
+          ><i class="fa fa-linkedin-square" aria-hidden="true"></i
+        ></a>
+        <a class="ml-3" href="https://www.instagram.com/snehith_chenna/"
+          ><i class="fa fa-instagram" aria-hidden="true"></i
+        ></a>
+        <a class="ml-3" href="https://www.facebook.com/snehith.chenna"
+          ><i class="fa fa-facebook-official" aria-hidden="true"></i
+        ></a>
+      </section>
+    </div>
+  </div>
 </body>
