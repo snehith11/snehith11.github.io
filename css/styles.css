@@ -1,6 +1,4 @@
-* {
-    box-sizing: border-box;
-}
+
 
 body {
     margin: 0;
@@ -51,7 +49,7 @@ h1 {
 }
 
 .about-container {
-    height: 100vh;
+    padding-bottom: 50px;
 }
 
 .about-container .about-image {
@@ -82,7 +80,7 @@ h1 {
 
 .projects-container {
     background-color:#343a40 ;
-    margin:0px,10px,0px,30px;
+    padding:0px,10px,0px,30px;
     padding-left:20px;
     padding-right: 20px;;
 }
@@ -106,7 +104,7 @@ h1 {
 
 .skills-container{
     background-color:#ffffff ;
-    margin:0px,10px,0px,20px;
+    padding:0px,10px,0px,20px;
     padding-left:30px;
     padding-right:30px;
 }
