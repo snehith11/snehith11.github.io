@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: gray;
+}
+.calculator{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+}
+.calculator input{
+    display: block;
+    margin: 0 auto;
+}
+.calculator .operations{
+    display: block;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+.calculator .operations button{
+    width: 50px;
+    margin: 0 10px;
+}
