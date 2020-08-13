@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Stopwatch</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div id="stopwatch">
+      <h1>Stopwatch</h1>
+      <div id="clock">
+        <span id="mins" class="time">00</span><span class="gap">:</span
+        ><span id="sec" class="time">00</span><span class="gap">:</span
+        ><span id="cs" class="time">00</span>
+      </div>
+      <div id="controls">
+        <button id="start" class="controls" onclick="start()">Start</button
+        ><button id="pause" class="controls" onclick="pause()">Pause</button
+        ><button id="stop" class="controls" onclick="reset()">Reset</button>
+      </div>
+    </div>
+    <script src="./index.js" async defer></script>
+  </body>
+</html>
